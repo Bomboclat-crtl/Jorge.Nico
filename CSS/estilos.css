@@ -23,6 +23,9 @@ nav{
 
 }
 nav ul{
-    color: white;
     display: flex;
+}
+nav ul li a{
+    text-decoration: none;
+color: white;
 }
