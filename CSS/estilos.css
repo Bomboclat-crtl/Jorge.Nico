@@ -63,7 +63,8 @@ article ul, ol, dl{
 }
 article img{
     width: 100%;
-    max-width: 180px;
+    max-width: 220px;
+
 aside{
     justify-content: center;
     flex: 1;
