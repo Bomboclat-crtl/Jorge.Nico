@@ -72,6 +72,37 @@ article ul, ol, dl{
 article img{
     width: 500px;
     border: 2px solid #0099ff;
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: #1a1f3a;
+  border: 2px solid #0099ff;
+}
+
+table thead {
+  background-color: #0f1629;
+  border-bottom: 2px solid #ff006e;
+}
+
+table th {
+  color: #ff006e;
+  padding: 12px;
+  text-align: left;
+  font-weight: bold;
+}
+
+table td {
+  color: #00ff88;
+  padding: 12px;
+  border-bottom: 1px solid #0099ff;
+}
+
+table tbody tr:hover {
+  background-color: #0099ff;
+  color: #0a0e27;
+}
+
 }
 aside{
     justify-content: center;
