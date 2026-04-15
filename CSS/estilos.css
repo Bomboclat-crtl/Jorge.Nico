@@ -8,8 +8,8 @@
 
 body {
     justify-content: flex-end;
-    background-color: #f5f5f5;
-    color: #333;
+    background-color: #740505;
+    color: #8a0a96;
     line-height: 1.6;
     padding:20px
 }
@@ -32,16 +32,16 @@ nav ul{
 }
 nav ul li a{
     text-decoration: none;
-    color: white;
+    color: rgb(3, 31, 73);
     background-color: #22208d;
     padding: 8px 12px;
     border-radius: 5px;
     transition: background-color 0,7s;
 }
 nav ul li a:hover{
-    background-color: #393888;
+    background-color: #d44172;
     border-radius: 10px;
-    color: rgb(223, 213, 126);
+    color: rgb(5, 83, 88);
 }
 section{
     justify-content: flex-end;
@@ -52,10 +52,10 @@ section{
 }
 article{
     flex: 2;
-    background-color: white;
+    background-color: rgb(7, 7, 7);
     padding: 15px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px #022442;
+    box-shadow: 0 2px 5px #2724e4;
 }
 article ul, ol, dl{
     padding: 10px;
@@ -67,7 +67,7 @@ article img{
 aside{
     justify-content: center;
     flex: 1;
-    background-color: rgb(201, 201, 250);
+    background-color: rgb(18, 18, 20);
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 5px #022442;
@@ -81,7 +81,7 @@ footer{
     margin-top: 20px;
 }
 footer a{
-    color: white;
+    color: rgb(224, 9, 9);
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 8px 12px;
