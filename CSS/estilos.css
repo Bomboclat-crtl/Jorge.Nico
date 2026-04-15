@@ -8,19 +8,20 @@
 
 body {
     justify-content: flex-end;
-    background-color: #740505;
-    color: #8a0a96;
+    background-color: #961919;
+    color: #d291e2;
     line-height: 1.6;
     padding:20px
 }
 header{
     text-align:center;
     padding: 20px;
-    background-color: white;
+    background-color: rgb(34, 118, 167);
 }
 nav{
 
     background-color: #0c0a64;
+    color: #f80000;
     padding: 10px;
 
 }
@@ -52,10 +53,10 @@ section{
 }
 article{
     flex: 2;
-    background-color: rgb(7, 7, 7);
+    background-color: rgb(73, 73, 71);
     padding: 15px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px #2724e4;
+    box-shadow: 0 2px 5px #fd0000;
 }
 article ul, ol, dl{
     padding: 10px;
