@@ -8,22 +8,23 @@
 
 body {
     justify-content: flex-end;
-    background-color: #f5f5f5;
-    color: #333;
+    background-color: #0a0e27;
+    color: #00ff88;
     line-height: 1.6;
     padding:20px
 }
 header{
     text-align:center;
     padding: 20px;
-    background-color: white;
+    background-color: #1a1f3a;
+    border-bottom: 3px solid #ff006e;
 }
 header img{
     width: 150px;
 }
 nav{
 
-    background-color: #0c0a64;
+    background-color: #0f1629;
     padding: 10px;
 
 }
@@ -35,16 +36,17 @@ nav ul{
 }
 nav ul li a{
     text-decoration: none;
-    color: white;
-    background-color: #22208d;
+    color: #00ff88;
+    background-color: #1a1f3a;
     padding: 8px 12px;
     border-radius: 5px;
-    transition: background-color 0,7s;
+    transition: all 0.7s;
+    border: 1px solid #0099ff;
 }
 nav ul li a:hover{
-    background-color: #393888;
+    background-color: #0099ff;
     border-radius: 10px;
-    color: rgb(223, 213, 126);
+    color: #0a0e27;
 }
 section{
     justify-content: flex-end;
@@ -56,10 +58,12 @@ section{
 }
 article{
     flex: 2;
-    background-color: white;
+    background-color: #1a1f3a;
     padding: 15px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px #022442;
+    box-shadow: 0 2px 5px #ff006e;
+    border: 1px solid #0099ff;
+    color: #00ff88;
 }
 article ul, ol, dl{
     padding: 10px;
@@ -67,27 +71,35 @@ article ul, ol, dl{
 }
 article img{
     width: 500px;
+    border: 2px solid #0099ff;
 }
 aside{
     justify-content: center;
     flex: 1;
-    background-color: rgb(201, 201, 250);
+    background-color: #1a1f3a;
     padding: 15px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px #022442;
+    box-shadow: 0 2px 5px #0099ff;
+    border: 1px solid #ff006e;
+    color: #00ff88;
 }
 footer{
     text-align: center;
     padding: 15px;
-    background-color: #06053b;
-    color: white;
+    background-color: #0f1629;
+    color: #00ff88;
     border-radius: 8px;
     margin-top: 20px;
+    border-top: 2px solid #ff006e;
 }
 footer a{
-    color: white;
+    color: #00ff88;
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 8px 12px;
     flex: 2;
-}}
+    transition: all 0.7s;
+}
+footer a:hover{
+    color: #ff006e;
+}
