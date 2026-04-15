@@ -51,7 +51,7 @@ section{
     margin-bottom: 20px;
 }
 article{
-    flex: 2;
+    flex: 0 0 calc(33.333% - 13px);
     background-color: white;
     padding: 15px;
     border-radius: 8px;
@@ -62,8 +62,8 @@ article ul, ol, dl{
     margin: 10px;
 }
 article img{
-    width: 500px;
-}
+    width: 100%;
+    max-width: 180px;
 aside{
     justify-content: center;
     flex: 1;
