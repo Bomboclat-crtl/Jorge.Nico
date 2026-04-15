@@ -103,3 +103,17 @@ footer a{
 footer a:hover{
     color: #ff006e;
 }
+dl {
+  margin-bottom: 20px;
+}
+
+dt {
+  margin-top: 15px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
