@@ -73,6 +73,10 @@ article img{
  margin: 0 auto 10px auto;
 }
 
+section > article{
+ min-width: 0;
+}
+
 article img{
  width: 100%;
  max-width: 300px;
