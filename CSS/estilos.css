@@ -47,19 +47,19 @@ nav ul li a:hover{
 }
 
 section{
- justify-content: flex-end;
+ justify-content: flex-start;
  display: flex;
  flex-direction: row;
- gap: 20px;
+ gap: 8px;
  margin-bottom: 20px;
  flex-wrap: nowrap;
  align-items: flex-start;
 }
 
 article{
- flex: 0 0 32%;
+ flex: 0 0 calc(33.333% - 6px);
  background-color: white;
- padding: 15px;
+ padding: 8px;
  border-radius: 8px;
  box-shadow: 0 2px 5px #022442;
  text-align: center;
@@ -67,10 +67,10 @@ article{
 
 article img{
  width: 100%;
- max-width: none;
+ max-width: 220px;
  height: auto;
  display: block;
- margin: 0 auto 10px auto;
+ margin: 0 auto 6px auto;
 }
 
 section > article{
