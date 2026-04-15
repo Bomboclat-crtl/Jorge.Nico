@@ -6,7 +6,7 @@
 }
 
 body {
- justify-content: flex-end;
+ justify-content: center;
  background-color: #0a0e27;
  color: #00ff88;
  line-height: 1.6;
@@ -22,14 +22,11 @@ header{
 
 header h1 {
  color: #00ff88;
- text-shadow: 0 0 10px #00ff88;
 }
 
 nav{
  background-color: #0f1629;
  padding: 10px;
- border-top: 2px solid #0099ff;
- border-bottom: 2px solid #ff006e;
 }
 
 nav ul{
@@ -45,7 +42,7 @@ nav ul li a{
  background-color: #1a1f3a;
  padding: 8px 12px;
  border-radius: 5px;
- transition: all 0.3s;
+ transition: all 0.7s;
  border: 1px solid #0099ff;
 }
 
@@ -53,11 +50,10 @@ nav ul li a:hover{
  background-color: #0099ff;
  border-radius: 10px;
  color: #0a0e27;
- box-shadow: 0 0 15px #0099ff;
 }
 
 section{
- justify-content: flex-start;
+ justify-content: center;
  display: flex;
  flex-direction: row;
  gap: 4px;
@@ -71,28 +67,32 @@ article{
  background-color: #1a1f3a;
  padding: 8px;
  border-radius: 8px;
- box-shadow: 0 0 20px #ff006e;
+ box-shadow: 0 2px 5px #ff006e;
  text-align: center;
  border: 1px solid #0099ff;
  color: #00ff88;
+ transition: all 0.7s;
+}
+
+article:hover {
+ background-color: #0099ff;
+ color: #0a0e27;
 }
 
 article h3 {
  color: #ff006e;
- text-shadow: 0 0 10px #ff006e;
 }
 
-article p {
+article h3:hover {
  color: #00ff88;
 }
 
 article img{
  width: 100%;
- max-width: 300px;
+ max-width: 180px;
  height: auto;
  display: block;
- margin: 0 auto 10px auto;
- border-radius: 5px;
+ margin: 0 auto 6px auto;
  border: 2px solid #0099ff;
 }
 
@@ -106,25 +106,33 @@ aside{
  background-color: #1a1f3a;
  padding: 15px;
  border-radius: 8px;
- box-shadow: 0 0 20px #0099ff;
+ box-shadow: 0 2px 5px #0099ff;
  border: 1px solid #ff006e;
  color: #00ff88;
+ transition: all 0.7s;
+}
+
+aside:hover {
+ background-color: #ff006e;
+ color: #0a0e27;
 }
 
 aside h2, aside h3, aside h4, aside h5, aside h6 {
  color: #ff006e;
- text-shadow: 0 0 10px #ff006e;
+}
+
+aside h2:hover, aside h3:hover, aside h4:hover, aside h5:hover, aside h6:hover {
+ color: #0099ff;
 }
 
 footer{
  text-align: center;
  padding: 15px;
- background-color: #0f1629;
+ background-color: #06053b;
  color: #00ff88;
  border-radius: 8px;
  margin-top: 20px;
  border-top: 2px solid #ff006e;
- border-bottom: 2px solid #0099ff;
 }
 
 footer a{
@@ -133,15 +141,9 @@ footer a{
  font-family: Georgia, 'Times New Roman', Times, serif;
  padding: 8px 12px;
  flex: 2;
- transition: all 0.3s;
- border-bottom: 1px solid #0099ff;
+ transition: all 0.7s;
 }
 
 footer a:hover {
  color: #ff006e;
- text-shadow: 0 0 10px #ff006e;
-}
-
-footer p {
- color: #0099ff;
 }
