@@ -2,6 +2,7 @@
 <html lang="es">
   <head>
     <link rel="icon" href="images/SENATI.jpg" />
+    <script src="js/PrimerJS.Js"></script>
     <title> mi cuarta pagina web</title>
     <link rel="stylesheet" href="CSS/estilos.css">
   </head>
@@ -15,19 +16,28 @@
     </header>
     <nav>
       <ul>
-         <li><a href="index.html">Inicio</a></li>
-        <li><a href="segunda.html">Listas</a></li>
-        <li><a href="tercera.html">Tablas</a></li>
-        <li><a href="cuarta.html">JS</a></li>
-        <li><a href="quinta.html">Tarea de JS</a></li>
-        <li><a href="sexta.html">Formularios</a></li>
-        <li><a href="Tarea 2/index.html">Personal</a></li>
+        <li><a id="m1" href="index.html">Inicio</a></li>
+        <li><a id="m2" href="segunda.html">Listas</a></li>
+        <li><a id="m3" href="tercera.html">Tablas</a></li>
+        <li><a id="m4" href="cuarta.html">Ejemplos de JS</a></li>
+        <li><a id="m5" href="quinta.html">Tarea de JS</a></li>
+        <li><a id="m6" href="sexta.html">Formularios</a></li>
+        <li><a id="m7" href="Tarea 2/index.html">Personal</a></li>
       </ul>
     </nav>
     <section>
-      <article></article>
-      <article></article>
-      <aside></aside>
+    <article>
+    <h3 id="TituloJS">Ejemplos en JS</h3>
+    <img id="carita" src="images/happy.jpg" alt="feliz" width="150px">
+    <button onclick="cambiarCarita()">Cambiar carita</button>
+    <button onclick="feliz()">Carita feliz</button>
+    </article>
+
+    <article>
+    <button onclick="nombresNav()">Cambiar nombres de Navegacion</button>
+    </article>
+    
+    <aside></aside>
     </section>
     <footer>
       <a href="https://senati.blackboard.com/" target="_blank ">Blackboard</a>
