@@ -5,8 +5,9 @@ alert("Gente miren una alerta xdxdddd");
 
 function cambiarCarita(){
     document.getElementById("carita").src="images/sad.jpg";
-     document.getElementById("logoSenati").src="images/senati2.png";
     alert("XQ estas triste??");
+    
+    
 }
 function feliz(){
     document.getElementById("carita").src="images/happy.jpg";
