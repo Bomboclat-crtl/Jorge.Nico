@@ -48,3 +48,4 @@ function recuperar() {
     location.reload();
 }
 
+/*probando
