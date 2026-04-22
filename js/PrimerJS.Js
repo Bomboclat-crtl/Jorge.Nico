@@ -23,6 +23,14 @@ function nombresNav() {
     document.getElementById("m7").textContent = "Personal";
 }
 
+function cambiarTitulo() {
+    document.getElementById("titulo").textContent="Practicando JS"
+    document.getElementById("encabezado").style.background="#8207b3"
+}
+
+
+
+
 function caida() {
     document.body.innerHTML = "<h1>ERROR</h1><p>Pagina no disponible</p><button onclick='recuperar()'>Volver</button>";
 }
@@ -30,3 +38,4 @@ function caida() {
 function recuperar() {
     location.reload();
 }
+
