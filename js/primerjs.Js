@@ -70,3 +70,11 @@ function recuperar() {
     location.reload();
 }
 
+
+function distancia(){
+    let distanciaR = 20
+    let tarifaI = 10
+    let tarifaporKM = 3
+    Stotal = (10+distanciaR*3)
+    alert("El total seria de: S/."+Stotal)
+}
