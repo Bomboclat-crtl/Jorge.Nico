@@ -81,20 +81,25 @@ function distancia(){
 
 function cambiarFondo() {
   document.body.style.backgroundColor = "lightblue";
+  alert("esto cambia el fondo")
 }
 
 function cambiarTexto() {
   document.body.style.color = "darkred";
+  alert("esto cambia el texto xd")
 }
 
 function agrandarTexto() {
   document.getElementById("TituloJS").style.fontSize = "40px";
+  alert("esto agranda el texto")
 }
 
 
-function agrandarImagen() {
+function disminuirImagen() {
   document.getElementById("imagen").style.width = "300px";
+  alert("esto disminuye la imagen")
 }
+
 
 function alertasC(){
     alert("hola");
