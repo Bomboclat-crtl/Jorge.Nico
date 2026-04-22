@@ -23,3 +23,9 @@ function nombresNav() {
     document.getElementById("m6").textContent = "Forms";
     document.getElementById("m7").textContent = "Personal";
 }
+
+function simularCaida() {
+  const overlay = document.getElementById('overlay');
+  overlay.style.display = 'flex';
+  document.body.style.pointerEvents = 'none';
+}
