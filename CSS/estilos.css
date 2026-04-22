@@ -74,6 +74,11 @@ article img{
     border: 2px solid #0099ff;
 }
 
+article dl dt{
+    font-weight: bold;
+}
+
+
 button {
     margin: 10px;
 }
