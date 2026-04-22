@@ -78,3 +78,19 @@ function distancia(){
     Stotal = (10+distanciaR*3)
     alert("El total seria de: S/."+Stotal)
 }
+
+function cambiarFondo() {
+  document.body.style.backgroundColor = "lightblue";
+}
+
+function cambiarTexto() {
+  document.body.style.color = "darkred";
+}
+
+function agrandarTexto() {
+  document.getElementById("parrafo").style.fontSize = "24px";
+}
+
+function agrandarImagen() {
+  document.getElementById("imagen").style.width = "300px";
+}
