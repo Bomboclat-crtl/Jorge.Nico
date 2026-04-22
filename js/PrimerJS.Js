@@ -5,7 +5,6 @@ alert("Gente miren una alerta xdxdddd");
 
 function cambiarCarita(){
     document.getElementById("carita").src="images/sad.jpg";
-    document.getElementById("senati").src="images/senati2.png";
     alert("XQ estas triste??");
 }
 function feliz(){
@@ -26,8 +25,9 @@ function nombresNav() {
 function cambiarTitulo(){
     document.getElementById("titulo").textContent="Practicando JS";
     document.getElementById("titulo").style.color="#7e1ba5";
+    document.getElementById("titulo").style.fontSize="40px"; 
     document.getElementById("senati").src="images/senati2.png";
-    document.getElementById("encabezado").style.background="#e65082";
+    document.getElementById("encabezado").style.backgroundColor="#e65082";
 }
 
 function suma(){
@@ -36,7 +36,6 @@ function suma(){
     let suma = num1+num2;
     alert(suma);
 }
-
 
 function caida() {
     document.body.innerHTML = "<h1>ERROR</h1><p>Pagina no disponible</p><button onclick='recuperar()'>Volver</button>";
