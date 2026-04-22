@@ -32,7 +32,12 @@ function cambiarTitulo(){
     document.getElementById("encabezado").style.background="#e65082"
 }
 
-
+function suma(){
+    let num1 = 3;
+    let num2 = 5;
+    let suma = num1+num2;
+    alert(suma);
+}
 
 
 function caida() {
