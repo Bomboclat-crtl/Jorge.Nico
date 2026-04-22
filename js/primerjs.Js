@@ -64,6 +64,7 @@ function eje02(){
 
 function caida() {
     document.body.innerHTML = "<h1>ERROR</h1><p>Pagina no disponible</p><button onclick='recuperar()'>Volver</button>";
+    alert("esto es una prueba de un ataque DDOS xd")
 }
 
 function recuperar() {
