@@ -24,8 +24,10 @@ function nombresNav() {
     document.getElementById("m7").textContent = "Personal";
 }
 
-function simularCaida() {
-  const overlay = document.getElementById('overlay');
-  overlay.style.display = 'flex';
-  document.body.style.pointerEvents = 'none';
+function caida() {
+    document.body.innerHTML = "<h1>ERROR</h1><p>Pagina no disponible</p><button onclick='recuperar()'>Volver</button>";
+}
+
+function recuperar() {
+    location.reload();
 }
