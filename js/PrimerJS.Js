@@ -28,7 +28,7 @@ function cambiarTitulo(){
     document.getElementById("titulo").style.color="#7e1ba5"
     document.getElementById("titulo").style.text-size-adjust= "40px";
     
-    document.getElementById("SENATI").src="images/senati2.png";
+    document.getElementById("senati").src="images/senati2.png";
     document.getElementById("encabezado").style.background="#e65082"
 }
 
