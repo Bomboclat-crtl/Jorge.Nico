@@ -78,6 +78,10 @@ article dl dt{
     font-weight: bold;
 }
 
+article dl dd{
+    font-weight: lighter;
+    margin-left: 5px;
+}
 
 button {
     margin: 10px;
