@@ -88,8 +88,9 @@ function cambiarTexto() {
 }
 
 function agrandarTexto() {
-  document.getElementById("parrafo").style.fontSize = "24px";
+  document.getElementById("TituloJS").style.fontSize = "40px";
 }
+
 
 function agrandarImagen() {
   document.getElementById("imagen").style.width = "300px";
