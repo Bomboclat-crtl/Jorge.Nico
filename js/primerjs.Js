@@ -95,3 +95,12 @@ function agrandarTexto() {
 function agrandarImagen() {
   document.getElementById("imagen").style.width = "300px";
 }
+
+function alertasC(){
+    alert("hola");
+    alert("gente");
+    alert("de");
+    alert("youtube");
+    alert("6");
+    alert("7");
+}
