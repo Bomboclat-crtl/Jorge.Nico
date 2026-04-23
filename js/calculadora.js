@@ -26,7 +26,11 @@ document.addEventListener("DOMContentLoaded", function(){
                 res = nume1*nume2;
                 break;
             case "div":
-
+                res = nume1/nume2;
+                if(isNaN(nume1<=0)||isNaN(nume2<=0)){
+                    resultado.textContent = "no se puede dividir";
+                    return
+                }
                 break;
             default:
                 break;
