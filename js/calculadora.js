@@ -67,5 +67,27 @@ document.addEventListener("DOMContentLoaded", function(){
         VariableSalida.textContent = "Su sueldo a pagar es de S/."+sueldo;
         });
         
+        //ejercicio09
+ document.getElementById("Eje09").addEventListener("submit", function(e){
+        e.preventDefault();
+          let distancia = parseFloat(document.getElementById("distancia").value);
+          let tBase = 10;
+          let adic = 3;
+          let total = tBase + (distancia*adic);
+          let salidaV = document.getElementById("pagar");
 
+          if(isNaN(distancia)){
+            VariableSalida.textContent = "Ingrese números válidos";
+            alert("Ingresa un numero pe!");
+            return;
+          }
+        salidaV.textContent= "Total a Pagar por "+distancia +"km. es de S/."+ total;
+
+        });
+     /*   
+        document.getElementById("formEje04").addEventListener("submit", function(e){
+        e.preventDefault();
+            //AQUI ES DONDE RESUELVES TU EJERCICIO
+        });
+*/
 })
