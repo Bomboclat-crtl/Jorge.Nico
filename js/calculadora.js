@@ -26,11 +26,15 @@ document.addEventListener("DOMContentLoaded", function(){
                 res = nume1*nume2;
                 break;
             case "div":
-                res = num1/num2;
-        
-                break;
+                 if (nume2 === 0) {
+                 resultado.textContent = "No se puede dividir entre 0";
+                 return;
+            }
+            res = nume1 / nume2;
+            break;
             default:
-                break;
+            resultado.textContent = "Operación no válida";
+            return;
         }
 
     resultado.textContent = "Resultado es "+res;
