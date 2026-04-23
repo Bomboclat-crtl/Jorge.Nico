@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded", function(){
                 res = nume1/nume2;
                 if(res<=0)
                     resultado.textContent = "ta mal"
+                return
                 }
                 break;
             default:
