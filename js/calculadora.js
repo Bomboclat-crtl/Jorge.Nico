@@ -27,9 +27,6 @@ document.addEventListener("DOMContentLoaded", function(){
                 break;
             case "div":
                 res = num1/num2;
-               if(isNaN(nume1<=0)||isNaN(nume2<=0)){
-                resultado.textContent = "ta mal";
-                return;
         
                 break;
             default:
