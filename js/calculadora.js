@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function(){
                 break;
             case "div":
                  if (nume2 === 0) {
-                 resultado.textContent = "No se puede dividir entre 0";
+                alert("no se puede p UnU")
                  return;
             }
             res = nume1 / nume2;
