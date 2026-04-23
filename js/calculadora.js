@@ -10,6 +10,30 @@ document.addEventListener("DOMContentLoaded", function(){
 
         if(isNaN(nume1)||isNaN(nume2)){
             resultado.textContent = "Ingrese números válidos";
+            return;
         }
+
+        let res; //temporal para almacenar el resultado
+
+        switch (operacion) {
+            case "sum":
+                res = nume1+nume2;
+                break;
+            case "rest":
+                res = nume1-nume2;
+                break;
+            case "mul":
+                res = nume1*nume2;
+                break;
+            case "div":
+
+                break;
+            default:
+                break;
+        }
+
+    resultado.textContent = "Resultado es "+res;
+
     });
+
 })
