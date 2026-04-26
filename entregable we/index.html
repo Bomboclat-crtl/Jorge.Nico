@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EcoMarket - Productos Orgánicos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="css/estilos.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">🌿 Eco<span>Market</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Productos</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="verduras.html">🥦 Verduras</a></li>
+                            <li><a class="dropdown-item" href="frutas.html">🍎 Frutas</a></li>
+                            <li><a class="dropdown-item" href="granos.html">🌾 Granos</a></li>
+                            <li><a class="dropdown-item" href="legumbres.html">🫘 Legumbres</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="libroR.html">Libro de Reclamaciones</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-section">
+        <div class="container text-center">
+            <h1>Lo mejor del campo, directo a tu mesa 🌾</h1>
+            <p class="mt-3 mb-4">Productos orgánicos frescos: frutas, verduras, granos y legumbres de la más alta calidad.</p>
+            <a href="verduras.html" class="btn btn-eco">Ver Productos</a>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center titulo-seccion">Nuestras Categorías</h2>
+            <div class="row g-4 mt-2">
+                <div class="col-6 col-md-3">
+                    <a href="verduras.html" class="categoria-card">
+                        <div class="icono">🥦</div>
+                        <h4>Verduras</h4>
+                        <p class="text-muted small mb-0">7 productos</p>
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="frutas.html" class="categoria-card">
+                        <div class="icono">🍎</div>
+                        <h4>Frutas</h4>
+                        <p class="text-muted small mb-0">6 productos</p>
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="granos.html" class="categoria-card">
+                        <div class="icono">🌾</div>
+                        <h4>Granos</h4>
+                        <p class="text-muted small mb-0">6 productos</p>
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="legumbres.html" class="categoria-card">
+                        <div class="icono">🫘</div>
+                        <h4>Legumbres</h4>
+                        <p class="text-muted small mb-0">6 productos</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5" style="background-color: var(--gris-claro);">
+        <div class="container">
+            <h2 class="titulo-seccion">🔥 Productos en Promoción</h2>
+            <div class="row g-4">
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="card h-100" style="position:relative;">
+                        <span class="badge-promo">-25%</span>
+                        <img class="card-img-top" src="https://images.unsplash.com/photo-1584270354949-c26b0d5b4a0c?w=300&h=200&fit=crop" alt="Espinaca" />
+                        <div class="card-body text-center">
+                            <span class="badge-categoria">Verdura</span>
+                            <h5 class="mt-2">Espinaca Orgánica</h5>
+                            <p class="precio-original mb-0">S/ 4.00 / kg</p>
+                            <p class="precio-producto">S/ 3.00 / kg</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 pb-3">
+                            <button class="btn-comprar" onclick="comprar('Espinaca Orgánica')">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="card h-100" style="position:relative;">
+                        <span class="badge-promo">-20%</span>
+                        <img class="card-img-top" src="https://images.unsplash.com/photo-1557800636-894a64c1696f?w=300&h=200&fit=crop" alt="Naranja" />
+                        <div class="card-body text-center">
+                            <span class="badge-categoria">Fruta</span>
+                            <h5 class="mt-2">Naranja de Jugo</h5>
+                            <p class="precio-original mb-0">S/ 3.75 / kg</p>
+                            <p class="precio-producto">S/ 3.00 / kg</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 pb-3">
+                            <button class="btn-comprar" onclick="comprar('Naranja de Jugo')">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="card h-100" style="position:relative;">
+                        <span class="badge-promo">-30%</span>
+                        <img class="card-img-top" src="https://images.unsplash.com/photo-1586201375761-83865001e31c?w=300&h=200&fit=crop" alt="Quinua" />
+                        <div class="card-body text-center">
+                            <span class="badge-categoria">Grano</span>
+                            <h5 class="mt-2">Quinua Blanca</h5>
+                            <p class="precio-original mb-0">S/ 17.00 / kg</p>
+                            <p class="precio-producto">S/ 12.00 / kg</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 pb-3">
+                            <button class="btn-comprar" onclick="comprar('Quinua Blanca')">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="card h-100" style="position:relative;">
+                        <span class="badge-promo">-15%</span>
+                        <img class="card-img-top" src="https://images.unsplash.com/photo-1515543237350-b3eea1ec8082?w=300&h=200&fit=crop" alt="Lentejas" />
+                        <div class="card-body text-center">
+                            <span class="badge-categoria">Legumbre</span>
+                            <h5 class="mt-2">Lentejas Rojas</h5>
+                            <p class="precio-original mb-0">S/ 8.25 / kg</p>
+                            <p class="precio-producto">S/ 7.00 / kg</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 pb-3">
+                            <button class="btn-comprar" onclick="comprar('Lentejas Rojas')">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features-section">
+        <div class="container">
+            <h2 class="text-center titulo-seccion">¿Por qué EcoMarket?</h2>
+            <div class="row mt-3">
+                <div class="col-md-4">
+                    <div class="feature-item">
+                        <div class="icono-feat">🌱</div>
+                        <h4>100% Orgánico</h4>
+                        <p>Todos nuestros productos son cultivados sin pesticidas ni químicos dañinos.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-item">
+                        <div class="icono-feat">🚚</div>
+                        <h4>Entrega Fresca</h4>
+                        <p>Del campo a tu hogar en el menor tiempo posible, garantizando frescura.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-item">
+                        <div class="icono-feat">🤝</div>
+                        <h4>Apoyo Local</h4>
+                        <p>Trabajamos con agricultores locales y comunidades rurales del Perú.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <h5>🌿 EcoMarket</h5>
+                    <p>Tu tienda de productos orgánicos de confianza. Del campo peruano a tu hogar.</p>
+                    <p class="small">📍 Puno, Perú<br>📞 +51 999 888 777</p>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <h5>Navegación</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="verduras.html">Verduras</a></li>
+                        <li><a href="frutas.html">Frutas</a></li>
+                        <li><a href="granos.html">Granos</a></li>
+                        <li><a href="legumbres.html">Legumbres</a></li>
+                        <li><a href="libroR.html">Reclamaciones</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <h5>Síguenos</h5>
+                    <div class="redes-sociales">
+                        <a href="#" class="red-social-btn" title="Facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="red-social-btn" title="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="red-social-btn" title="Twitter / X"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" class="red-social-btn" title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-5 mb-4">
+                    <h5>Contáctanos</h5>
+                    <form id="form-contacto" onsubmit="enviarContacto(event)">
+                        <div class="row g-2">
+                            <div class="col-6">
+                                <input type="text" class="form-control form-control-sm" id="contacto-nombre" placeholder="Tu nombre" />
+                            </div>
+                            <div class="col-6">
+                                <input type="email" class="form-control form-control-sm" id="contacto-email" placeholder="Tu correo" />
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control form-control-sm" id="contacto-mensaje" rows="3" placeholder="Tu mensaje..."></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-contacto btn-sm">Enviar mensaje</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 EcoMarket. Todos los derechos reservados. Hecho con 🌿 para Perú.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="btn-arriba" onclick="irArriba()" title="Volver arriba">▲</button>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

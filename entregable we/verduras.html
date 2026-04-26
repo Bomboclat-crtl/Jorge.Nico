@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Verduras - EcoMarket</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="css/estilos.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">🌿 Eco<span>Market</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown">Productos</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="verduras.html">🥦 Verduras</a></li>
+                            <li><a class="dropdown-item" href="frutas.html">🍎 Frutas</a></li>
+                            <li><a class="dropdown-item" href="granos.html">🌾 Granos</a></li>
+                            <li><a class="dropdown-item" href="legumbres.html">🫘 Legumbres</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="libroR.html">Libro de Reclamaciones</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-header">
+        <div class="container">
+            <h1>🥦 Verduras Orgánicas</h1>
+            <p>Frescas del campo, sin pesticidas. 7 variedades disponibles.</p>
+        </div>
+    </div>
+
+    <div class="container py-5">
+        <div class="row g-4">
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1584270354949-c26b0d5b4a0c?w=300&h=200&fit=crop" alt="Espinaca" />
+                    <div class="card-body text-center">
+                        <span class="badge-categoria">Verdura</span>
+                        <h5 class="mt-2">Espinaca Orgánica</h5>
+                        <p class="small text-muted">Rica en hierro y vitaminas. Ideal para ensaladas y jugos.</p>
+                        <p class="precio-producto">S/ 3.50 / kg</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 pb-3">
+                        <button class="btn-comprar" onclick="comprar('Espinaca Orgánica')">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?w=300&h=200&fit=crop" alt="Brócoli" />
+                    <div class="card-body text-center">
+                        <span class="badge-categoria">Verdura</span>
+                        <h5 class="mt-2">Brócoli Fresco</h5>
+                        <p class="small text-muted">Alto contenido en antioxidantes y vitamina C.</p>
+                        <p class="precio-producto">S/ 4.00 / kg</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 pb-3">
+                        <button class="btn-comprar" onclick="comprar('Brócoli Fresco')">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1445282768818-728615cc910a?w=300&h=200&fit=crop" alt="Zanahoria" />
+                    <div class="card-body text-center">
+                        <span class="badge-categoria">Verdura</span>
+                        <h5 class="mt-2">Zanahoria Orgánica</h5>
+                        <p class="small text-muted">Dulce y crujiente, perfecta para jugos y estofados.</p>
+                        <p class="precio-producto">S/ 2.50 / kg</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 pb-3">
+                        <button class="btn-comprar" onclick="comprar('Zanahoria Orgánica')">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1622206151226-18ca2c9ab4a1?w=300&h=200&fit=crop" alt="Lechuga" />
+                    <div class="card-body text-center">
+                        <span class="badge-categoria">Verdura</span>
+                        <h5 class="mt-2">Lechuga Criolla</h5>
+                        <p class="small text-muted">Fresca y crocante. Ideal para ensaladas y hamburguesas.</p>
+                        <p class="precio-producto">S/ 2.00 / unidad</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 pb-3">
+                        <button class="btn-comprar" onclick="comprar('Lechuga Criolla')">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1546094096-0df4bcaaa337?w=300&h=200&fit=crop" alt="Tomate" />
+                    <div class="card-body text-center">
+                        <span class="badge-categoria">Verdura</span>
+                        <h5 class="mt-2">Tomate Cherry</h5>
+                        <p class="small text-muted">Dulces y jugosos. Perfectos para ensaladas gourmet.</p>
+                        <p class="precio-producto">S/ 5.00 / kg</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 pb-3">
+                        <button class="btn-comprar" onclick="comprar('Tomate Cherry')">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1449300079323-02e209d9d3a6?w=300&h=200&fit=crop" alt="Pepino" />
+                    <div class="card-body text-center">
+                        <span class="badge-categoria">Verdura</span>
+                        <h5 class="mt-2">Pepino Orgánico</h5>
+                        <p class="small text-muted">Refrescante e hidratante. Excelente para el verano.</p>
+                        <p class="precio-producto">S/ 1.50 / unidad</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 pb-3">
+                        <button class="btn-comprar" onclick="comprar('Pepino Orgánico')">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="card h-100">
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1618512496248-a07fe83aa8cb?w=300&h=200&fit=crop" alt="Cebolla" />
+                    <div class="card-body text-center">
+                        <span class="badge-categoria">Verdura</span>
+                        <h5 class="mt-2">Cebolla Morada</h5>
+                        <p class="small text-muted">Suave y aromática. Indispensable en la cocina peruana.</p>
+                        <p class="precio-producto">S/ 2.00 / kg</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 pb-3">
+                        <button class="btn-comprar" onclick="comprar('Cebolla Morada')">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <h5>🌿 EcoMarket</h5>
+                    <p>Tu tienda de productos orgánicos de confianza. Del campo peruano a tu hogar.</p>
+                    <p class="small">📍 Puno, Perú<br>📞 +51 999 888 777</p>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <h5>Navegación</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="verduras.html">Verduras</a></li>
+                        <li><a href="frutas.html">Frutas</a></li>
+                        <li><a href="granos.html">Granos</a></li>
+                        <li><a href="legumbres.html">Legumbres</a></li>
+                        <li><a href="libroR.html">Reclamaciones</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <h5>Síguenos</h5>
+                    <div class="redes-sociales">
+                        <a href="#" class="red-social-btn" title="Facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="red-social-btn" title="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="red-social-btn" title="Twitter / X"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" class="red-social-btn" title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-5 mb-4">
+                    <h5>Contáctanos</h5>
+                    <form id="form-contacto" onsubmit="enviarContacto(event)">
+                        <div class="row g-2">
+                            <div class="col-6">
+                                <input type="text" class="form-control form-control-sm" id="contacto-nombre" placeholder="Tu nombre" />
+                            </div>
+                            <div class="col-6">
+                                <input type="email" class="form-control form-control-sm" id="contacto-email" placeholder="Tu correo" />
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control form-control-sm" id="contacto-mensaje" rows="3" placeholder="Tu mensaje..."></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-contacto btn-sm">Enviar mensaje</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 EcoMarket. Todos los derechos reservados. Hecho con 🌿 para Perú.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="btn-arriba" onclick="irArriba()" title="Volver arriba">▲</button>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
