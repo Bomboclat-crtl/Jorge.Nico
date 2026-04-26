@@ -1,4 +1,3 @@
-// EcoMarket - scripts.js
 
 window.onscroll = function () {
     var btn = document.getElementById("btn-arriba");
