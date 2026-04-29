@@ -13,7 +13,7 @@ function irArriba() {
 }
 
 function comprar(nombreProducto) {
-    alert("¡Gracias por tu interés en " + nombreProducto + "!\n\nActualmente no contamos con un backend disponible. Pronto podrás realizar tu compra en línea. 🌿");
+    alert("¡Gracias por tu interés en " + nombreProducto + "!\n\nActualmente no contamos con un backend disponible. Pronto podrás realizar tu compra en línea.");
 }
 
 function enviarContacto(event) {
@@ -25,7 +25,7 @@ function enviarContacto(event) {
         alert("Por favor completa todos los campos.");
         return;
     }
-    alert("¡Gracias " + nombre + "! Tu mensaje fue recibido. Te responderemos pronto. 🌿");
+    alert("¡Gracias " + nombre + "! Tu mensaje fue recibido. Te responderemos pronto.");
     document.getElementById("form-contacto").reset();
 }
 
@@ -36,6 +36,6 @@ function enviarReclamo(event) {
         alert("Por favor completa todos los campos requeridos.");
         return;
     }
-    alert("Tu reclamo ha sido registrado correctamente. Te contactaremos a la brevedad posible. 📋");
+    alert("Tu reclamo ha sido registrado correctamente. Te contactaremos a la brevedad posible.");
     document.getElementById("form-reclamo").reset();
 }
